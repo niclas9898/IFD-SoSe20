@@ -1,0 +1,57 @@
+
+
+.inhalt{
+
+   
+
+    margin-left: 20em;
+    margin-right: 20em;
+}
+
+p{
+    line-height:  150%;
+    font-size: 1.4em;
+    font-family: 'Work Sans', sans-serif;
+
+
+}
+
+#me{
+    padding-right: 50px;
+    padding-top: 50px;
+    width:10em;
+   float:left;
+}
+
+
+.bilder{
+    
+  position: relative;
+  top: 140px;
+    border-top: solid lightgrey;
+    text-align: center;
+}
+
+.bilder img{
+
+    width: 20em;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
