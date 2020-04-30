@@ -15,21 +15,37 @@ p{
 
 
 }
+a{
+    text-decoration: none;
+color: blue;
+
+
+}
+
+.blocks{
+
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding-bottom: 50px;
+}
 
 #me{
     padding-right: 50px;
     padding-top: 50px;
     width:10em;
-   float:left;
+  
 }
 
 
 .bilder{
     
-  position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto ;
   top: 140px;
     border-top: solid lightgrey;
     text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .bilder img{
