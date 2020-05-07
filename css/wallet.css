@@ -6,7 +6,7 @@ margin-right: 20%;
 
 }
 
-h2, h1, p, li{
+h2, h1, h3, p, li{
   
     font-family: 'Lato','regular';
     line-height: 150%;
@@ -31,6 +31,13 @@ p{
     line-height: 170%;
     font-size: 1.1em;
 color: black;
+
+}
+img.crz{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+width:500px;
 
 }
 @media screen and (max-width: 850px) {
