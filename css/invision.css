@@ -1,0 +1,54 @@
+
+  main{
+
+    margin-left: 20%;
+margin-right: 20%;
+
+}
+
+h2, h1, h3, p, li, ul{
+  
+    font-family: 'Lato','regular';
+    line-height: 150%;
+    
+    padding-bottom: 0.5em;
+
+}
+h1{
+    font-size: 2.5em;
+}
+
+p,ul, li{
+    font-size: 0.8em;
+    color: black;
+    line-height: 170%;
+    font-size: 1.1em;
+}
+
+
+img.crz{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+width:500px;
+
+}
+@media screen and (max-width: 850px) {
+    main{
+
+        margin-left: 15%;
+    margin-right: 15%;
+    
+    }
+
+    @media screen and (max-width: 700px) {
+        h1{
+            font-size: 2.3em;
+        }
+
+        main{
+
+            margin-left: 10%;
+        margin-right: 10%;
+        
+        }
