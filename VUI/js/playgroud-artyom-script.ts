@@ -17,6 +17,7 @@ window.addEventListener("load", function(): void {
             artyom.say("Hey buddy ! How are you today?");
         }
     };
+    artyom.addCommands(commandHello)
     
     function startContinuousArtyom(): void {
         artyom.fatality();
