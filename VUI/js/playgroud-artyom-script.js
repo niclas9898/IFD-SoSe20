@@ -10,9 +10,9 @@ window.addEventListener("load", function () {
 
 
     var commandHello = {
-        indexes:["hello","good morning","hey"], // These spoken words will trigger the execution of the command
+        indexes:["Hallo, wie geht es dir"], // These spoken words will trigger the execution of the command
         action:function(){ // Action to be executed when a index match with spoken word
-            artyom.say("Hey buddy ! How are you today?");
+            artyom.say("Hey, mir geht es sehr gut");
            
         }
 
