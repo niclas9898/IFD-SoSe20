@@ -7,10 +7,6 @@ window.addEventListener("load", function () {
             console.log("Neue Aufgabe wird erstellt: " + wildcard);
         }
     });
-
-
-
-
     function startContinuousArtyom() {
         artyom.fatality();
         setTimeout(function () {

@@ -10,10 +10,6 @@ window.addEventListener("load", function(): void {
             console.log("Name: " + wildcard);
         }
     });
-
-   
-
-
     
     function startContinuousArtyom(): void {
         artyom.fatality();
