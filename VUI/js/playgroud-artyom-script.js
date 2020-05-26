@@ -28,7 +28,7 @@ window.addEventListener("load", function () {
             indexes:["Weißt du wer * ist?"],
             // Do something when the commands is triggered
             action:function(i,wildcard){
-                var database = ["Niclas, Sophia"];
+                var database = ["Niclas, Niklas, Sophia"];
     
                 //If the command "is xxx a good person" is triggered do, else
                 if(i == 2){
