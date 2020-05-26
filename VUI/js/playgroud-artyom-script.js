@@ -19,16 +19,16 @@ window.addEventListener("load", function () {
     };
 
     artyom.addCommands(commandHello)
-
+    
     var myGroup = [
         {
             description:"If my database contains the name of a person say something",
             smart:true, // a Smart command allow you to use wildcard in order to retrieve words that the user should say
             // Ways to trigger the command with the voice
-            indexes:["Weißt du wer * ist?"],
+            indexes:["Do you know who is *","I don't know who is *","Is * a good person"],
             // Do something when the commands is triggered
             action:function(i,wildcard){
-                var database = ["Niclas, Niklas, Sophia"];
+                var database = ["Carlos","Bruce","David","Joseph","Kenny"];
     
                 //If the command "is xxx a good person" is triggered do, else
                 if(i == 2){
