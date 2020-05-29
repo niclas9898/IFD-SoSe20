@@ -12,7 +12,7 @@ window.addEventListener("load", function () {
     var commandHello = {
         indexes:["Guten Morgen"], // These spoken words will trigger the execution of the command
         action:function(){ // Action to be executed when a index match with spoken word
-            artyom.say("Guten Morgen! Ihr Kaffee steht bereit. Reden wir über die gestrigen Zahlen?");
+            artyom.say("Ihr Kaffee steht bereit. Reden wir über die gestrigen Zahlen?");
            
         }
 
@@ -27,6 +27,21 @@ window.addEventListener("load", function () {
            
         }
 
+        indexes:["Wie hoch ist der Ausschuss?"], 
+        action:function(){ 
+            artyom.say("Der Ausschuss liegt bei 700 Stück");
+           
+        }
+        indexes:["Wie viele Mitarbeiter sind heute krank?"], 
+        action:function(){ 
+            artyom.say("Momentan sind insgesamt 75 Mitarbeiter krank");
+           
+        }
+        indexes:["Wie stehen die Produktionszahlen?"], 
+        action:function(){ 
+            artyom.say("Es wurden bisher 234090 Stück produziert");
+           
+        }
 
     };
 
