@@ -12,7 +12,7 @@ window.addEventListener("load", function () {
     var commandHello = {
         indexes:["Guten Morgen"], // These spoken words will trigger the execution of the command
         action:function(){ // Action to be executed when a index match with spoken word
-            artyom.say("Ihr Kaffee steht bereit. Reden wir über die gestrigen Zahlen?");
+            artyom.say("Willkommen zurück. Ihr Kaffee steht bereit. Reden wir über die gestrigen Zahlen?");
            
         }
 
