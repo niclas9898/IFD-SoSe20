@@ -48,7 +48,7 @@ window.addEventListener("load", function () {
 
 
     var krank = {
-        indexes:["Wie viele Mitarbeiter sind krank"], 
+        indexes:["Wie viele Mitarbeiter sind krank", "wie viele Mitarbeiter sind heute krank", "Wie viele Krankmeldungen gibt es"], 
         action:function(){ 
             artyom.say("Momentan sind insgesamt 75 Mitarbeiter krank");
            
