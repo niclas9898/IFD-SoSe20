@@ -10,15 +10,29 @@ window.addEventListener("load", function () {
 
 
     var commandHello = {
-        indexes:["guten morgen"], // These spoken words will trigger the execution of the command
+        indexes:["Guten Morgen"], // These spoken words will trigger the execution of the command
         action:function(){ // Action to be executed when a index match with spoken word
-            artyom.say("guten morgen Niclas");
+            artyom.say("Guten Morgen! Ihr Kaffee steht bereit. Reden wir über die gestrigen Zahlen?");
            
         }
 
     };
 
     artyom.addCommands(commandHello)
+
+    var FragenachStand = {
+        indexes:["Wie hoch sind die Kosten für den Verschleiß?"], 
+        action:function(){ 
+            artyom.say("Die Kosten für den Verschleiß liegen bei 4340€");
+           
+        }
+
+
+    };
+
+    artyom.addCommands(FragenachStand)
+
+
     
     var myGroup = [
         {
