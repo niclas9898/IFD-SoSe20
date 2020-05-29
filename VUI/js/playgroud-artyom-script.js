@@ -31,7 +31,7 @@ window.addEventListener("load", function () {
                 var database = ["Carlos","Bruce","David","Joseph","Kenny"];
     
                 //If the command "is xxx a good person" is triggered do, else
-                if(i == 0){
+                if(i == 2){
                     if(database.indexOf(wildcard.trim())){
                         artyom.say("I'm a machine, I dont know what is a feeling");
                     }else{
