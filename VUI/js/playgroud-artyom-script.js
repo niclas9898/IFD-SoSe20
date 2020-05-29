@@ -27,21 +27,6 @@ window.addEventListener("load", function () {
            
         }
 
-        indexes:["Wie hoch ist der Ausschuss?"], 
-        action:function(){ 
-            artyom.say("Der Ausschuss liegt bei 700 Stück");
-           
-        }
-        indexes:["Wie viele Mitarbeiter sind heute krank?"], 
-        action:function(){ 
-            artyom.say("Momentan sind insgesamt 75 Mitarbeiter krank");
-           
-        }
-        indexes:["Wie stehen die Produktionszahlen?"], 
-        action:function(){ 
-            artyom.say("Es wurden bisher 234090 Stück produziert");
-           
-        }
 
     };
 
