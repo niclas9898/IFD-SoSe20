@@ -12,7 +12,7 @@ window.addEventListener("load", function () {
     var commandHello = {
         indexes:["Guten Morgen"], // These spoken words will trigger the execution of the command
         action:function(){ // Action to be executed when a index match with spoken word
-            artyom.say("Willkommen zurück. Ihr Kaffee steht bereit. Reden wir über die gestrigen Zahlen?");
+            artyom.say("Willkommen Ihr Kaffee steht bereit. Reden wir über die gestrigen Zahlen?");
            
         }
 
@@ -20,17 +20,58 @@ window.addEventListener("load", function () {
 
     artyom.addCommands(commandHello)
 
-    var FragenachStand = {
-        indexes:["Wie hoch sind die Kosten für den Verschleiß?"], 
+    var Verschleiß = {
+        indexes:["wie hoch sind die Kosten für den Verschleiß"], 
         action:function(){ 
             artyom.say("Die Kosten für den Verschleiß liegen bei 4340€");
            
         }
 
+    
 
     };
 
-    artyom.addCommands(FragenachStand)
+    artyom.addCommands(Verschleiß)
+
+    var Produktionszahlen = {
+        indexes:["Wie stehen die Produktionszahlen"], 
+        action:function(){ 
+            artyom.say("Es wurden bisher 234090 Stück produziert");
+           
+        }
+
+    
+
+    };
+
+    artyom.addCommands(Produktionszahlen)
+
+
+    var krank = {
+        indexes:["Wie viele Mitarbeiter sind krank"], 
+        action:function(){ 
+            artyom.say("Momentan sind insgesamt 75 Mitarbeiter krank");
+           
+        }
+
+    
+
+    };
+
+    artyom.addCommands(krank)
+
+    var Ausschuss = {
+        indexes:["Wie hoch ist der Ausschuss"], 
+        action:function(){ 
+            artyom.say("Der Ausschuss liegt bei 700 Stück");
+           
+        }
+
+    
+
+    };
+
+    artyom.addCommands(Ausschuss)
 
 
     
