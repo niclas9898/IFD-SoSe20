@@ -34,7 +34,7 @@ window.addEventListener("load", function () {
     artyom.addCommands(Verschleiß)
 
     var Produktionszahlen = {
-        indexes:["Wie stehen die Produktionszahlen"], 
+        indexes:["Wie stehen die Produktionszahlen", "Wie viel Stuck wurde bisher produziert","Wie hoch sind die Produktionszahlen"], 
         action:function(){ 
             artyom.say("Es wurden bisher 234090 Stück produziert");
            
