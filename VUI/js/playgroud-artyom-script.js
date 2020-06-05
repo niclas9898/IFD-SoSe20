@@ -34,7 +34,7 @@ window.addEventListener("load", function () {
     artyom.addCommands(Verschleiß)
 
     var Produktionszahlen = {
-        indexes:["Wie stehen die Produktionszahlen", "Wie viel Stuck wurde bisher produziert","Wie hoch sind die Produktionszahlen"], 
+        indexes:["Wie stehen die Produktionszahlen", "Wie viel Stück wurde bisher produziert","Wie hoch sind die Produktionszahlen"], 
         action:function(){ 
             artyom.say("Es wurden bisher 234090 Stück produziert");
            
@@ -48,7 +48,7 @@ window.addEventListener("load", function () {
 
 
     var krank = {
-        indexes:["Wie viele Mitarbeiter sind krank", "wie viele Mitarbeiter sind heute krank", "Wie viele Krankmeldungen gibt es"], 
+        indexes:["Wie viele Mitarbeiter sind krank", "wie viele Mitarbeiter sind heute krank"], 
         action:function(){ 
             artyom.say("Momentan sind insgesamt 75 Mitarbeiter krank");
            
@@ -94,7 +94,7 @@ window.addEventListener("load", function () {
     var Stück2 = {
         indexes:["Wie hoch sind die Produktionszahlen für Werk 2", "Wie viel wurde in Werk 2 produziert"], 
         action:function(){ 
-            artyom.say("In Werk 1 wurden bereits 5967 Stück produziert");
+            artyom.say("In Werk 2 wurden bereits 5967 Stück produziert");
            
         }
 
@@ -106,7 +106,7 @@ window.addEventListener("load", function () {
     var Stück3 = {
         indexes:["Wie hoch sind die Produktionszahlen für Werk 3", "Wie viel wurde in Werk 3 produziert"], 
         action:function(){ 
-            artyom.say("In Werk 1 wurden bereits 3958 Stück produziert");
+            artyom.say("In Werk 3 wurden bereits 3958 Stück produziert");
            
         }
 
@@ -118,7 +118,7 @@ window.addEventListener("load", function () {
     var Stück4 = {
         indexes:["Wie hoch sind die Produktionszahlen für Werk 4", "Wie viel wurde in Werk 4 produziert"], 
         action:function(){ 
-            artyom.say("In Werk 1 wurden bereits 5734 Stück produziert");
+            artyom.say("In Werk 4 wurden bereits 5734 Stück produziert");
            
         }
 
@@ -133,7 +133,7 @@ window.addEventListener("load", function () {
 
            
     var krank1 = {
-        indexes:["Wie viele Mitarbeiter sind in Werk 1 krank","Wie viele Krankmeldungen gibt es in Werk 1" ], 
+        indexes:["Wie viele Mitarbeiter sind in Werk eins krank","wie viele Krankmeldungen gibt es im Werk 1" ,"wie viele Mitarbeiter sind in werk1 krank"], 
         action:function(){ 
             artyom.say("In Werk 1 sind heute 3 Mitarbeiter und Mitarbeiterinnen krank");
            
@@ -147,7 +147,7 @@ window.addEventListener("load", function () {
     var krank2 = {
         indexes:["Wie viele Mitarbeiter sind in Werk 2 krank","Wie viele Krankmeldungen gibt es in Werk 2"], 
         action:function(){ 
-            artyom.say("In Werk 1 sind heute 2  Mitarbeiter und Mitarbeiterinnen  krank");
+            artyom.say("In Werk 2 sind heute 2  Mitarbeiter und Mitarbeiterinnen  krank");
            
         }
 
@@ -157,9 +157,9 @@ window.addEventListener("load", function () {
 
     artyom.addCommands(krank2)
     var krank3 = {
-        indexes:["Wie viele Mitarbeiter sind in Werk 3 krank","Wie viele Krankmeldungen gibt es in Werk 3"], 
+        indexes:["Wie viele Mitarbeiter sind in Werk 3 krank","Wie viele Krankmeldungen gibt es in Werk 3", "wie viele Krankmeldungen gibt es in werk3"], 
         action:function(){ 
-            artyom.say("In Werk 1 sind heute 0  Mitarbeiter und Mitarbeiterinnen  krank");
+            artyom.say("In Werk 3 sind heute 0  Mitarbeiter und Mitarbeiterinnen  krank");
            
         }
 
@@ -169,9 +169,9 @@ window.addEventListener("load", function () {
 
     artyom.addCommands(krank3)
     var krank4 = {
-        indexes:["Wie viele Mitarbeiter sind in Werk 4 krank","Wie viele Krankmeldungen gibt es in Werk 4"], 
+        indexes:["Wie viele Mitarbeiter sind in Werk 4 krank","wie viele Krankmeldungen gibt es im Werk 4"], 
         action:function(){ 
-            artyom.say("In Werk 1 sind heute 70  Mitarbeiter und Mitarbeiterinnen krank. Möchten Sie mehr Infos zu den Krankmeldungen?");
+            artyom.say("In Werk 4 sind heute 70  Mitarbeiter und Mitarbeiterinnen krank. Möchten Sie mehr Infos zu den Krankmeldungen?");
            
         }
 
@@ -199,7 +199,7 @@ window.addEventListener("load", function () {
 
            
     var ausschuss1 = {
-        indexes:["Wie hoch liegt der Ausschuss in Werk 1" ], 
+        indexes:["wie hoch liegt der Ausschuss im Werk 1","wie hoch liegt der Ausschuss in werkeins" ], 
         action:function(){ 
             artyom.say("Der Ausschuss in Werk 1 liegt bei 400 stück");
            
@@ -211,7 +211,7 @@ window.addEventListener("load", function () {
 
     artyom.addCommands(ausschuss1)
     var ausschuss2 = {
-        indexes:["Wie hoch liegt der Ausschuss in Werk 2"], 
+        indexes:["Wie hoch liegt der Ausschuss in Werk 2","wie hoch liegt der Ausschuss in werk2"], 
         action:function(){ 
             artyom.say("Der Ausschuss in Werk 2 liegt bei 30 stück");
            
@@ -223,7 +223,7 @@ window.addEventListener("load", function () {
 
     artyom.addCommands(ausschuss2)
     var ausschuss3 = {
-        indexes:["Wie hoch liegt der Ausschuss in Werk 3"], 
+        indexes:["Wie hoch liegt der Ausschuss in Werk 3","wie hoch liegt der Ausschuss in werk3"], 
         action:function(){ 
             artyom.say("Der Ausschuss in Werk 3 liegt bei 34 stück");
            
@@ -235,7 +235,7 @@ window.addEventListener("load", function () {
 
     artyom.addCommands(ausschuss3)
     var ausschuss4 = {
-        indexes:["Wie hoch liegt der Ausschuss in Werk 4"], 
+        indexes:["wie hoch liegt der Ausschuss im Werk 4","wie hoch liegt der Ausschuss in werk4"], 
         action:function(){ 
             artyom.say("Der Ausschuss in Werk 4 liegt bei 40 stück");
            
@@ -278,7 +278,7 @@ window.addEventListener("load", function () {
     artyom.addCommands(Verschleiß1)
 
     var Verschleiß11 = {
-        indexes:["Bitte mehr Infos zum Verschleiß in Werk 1" ], 
+        indexes:["Bitte mehr Infos zum Verschleiß in Werk eins" ], 
         action:function(){ 
             artyom.say("Maschine 4 an Band 12 ist seit gestern defekt. Es wird sich bereits darum gekümmert. Die Produktion wurde eingestellt");
            
@@ -334,9 +334,9 @@ window.addEventListener("load", function () {
 
 
     var meldung1 = {
-        indexes:["Was sind die wichtigsten Meldungen des Tages?"], 
+        indexes:["Was sind die wichtigsten Meldungen des Tages"], 
         action:function(){ 
-            artyom.say("Der Ausschuss in Werk 1 ist durch einen Fehler in der Maschine gestern deutlich gestiegen, wodurch auch die Kosten für den Verschließ in Werk 1 über dem Durchschnitt liegen. Die Produktion wurde eingestellt. Fahren wir fort?");
+            artyom.say("Der Ausschuss in Werk 1 ist durch einen Fehler in der Maschine gestern deutlich gestiegen, wodurch auch die Kosten für den Verschleiß in Werk 1 über dem Durchschnitt liegen. Die Produktion wurde eingestellt. Fahren wir fort?");
            
         }
 
