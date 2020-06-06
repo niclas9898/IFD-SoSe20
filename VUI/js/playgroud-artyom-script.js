@@ -19,7 +19,7 @@ window.addEventListener("load", function () {
     });
 
     artyom.addCommands({
-        indexes: ["bitte über die neuen Zahlen","neue Zahlen", "neue Zahl"],
+        indexes: ["über die neuen Zahlen","neue Zahlen", "neue Zahl"],
         smart: false,
         action: function () {
             artyom.say("Schade, ich hätte gerne über das Wetter geredet.");
@@ -27,10 +27,10 @@ window.addEventListener("load", function () {
     });
 
     artyom.addCommands({
-        indexes: ["Wie wird das Wetter heute"],
+        indexes: ["Wie wird das Wetter heute", "über das Wetter"],
         smart: false,
         action: function () {
-            artyom.say("Konzentriere dich bitte auf das wesentliche");
+            artyom.say("Konzentrieren Sie sich bitte auf das wesentliche");
         }
     });
   
