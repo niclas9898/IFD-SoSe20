@@ -12,7 +12,7 @@ window.addEventListener("load", function () {
     var commandHello = {
         indexes:["Guten Morgen", "hallo"], // These spoken words will trigger the execution of the command
         action:function(){ // Action to be executed when a index match with spoken word
-            artyom.say("Willkommen Ihr Kaffee steht bereit. Reden wir über die gestrigen Zahlen?");
+            artyom.say("Willkommen. Ihr Kaffee steht bereit. Reden wir über die gestrigen Zahlen?");
            
         }
 
@@ -104,7 +104,7 @@ window.addEventListener("load", function () {
 
     artyom.addCommands(Stück2)
     var Stück3 = {
-        indexes:["Wie hoch sind die Produktionszahlen für Werk 3", "Wie viel wurde in Werk 3 produziert"], 
+        indexes:["Wie hoch sind die Produktionszahlen für Werk 3", "Wie viel wurde in Werk 3 produziert","wie viel wurde in werk3 produziert"], 
         action:function(){ 
             artyom.say("In Werk 3 wurden bereits 3958 Stück produziert");
            
@@ -133,7 +133,7 @@ window.addEventListener("load", function () {
 
            
     var krank1 = {
-        indexes:["Wie viele Mitarbeiter sind in Werk eins krank","wie viele Krankmeldungen gibt es im Werk 1" ,"wie viele Mitarbeiter sind in werk1 krank"], 
+        indexes:["Wie viele Mitarbeiter sind in Werk eins krank","wie viele Krankmeldungen gibt es im Werk 1" ,"wie viele Mitarbeiter sind in werk1 krank","ie viel Mitarbeiter sind im Werk 1 krank"], 
         action:function(){ 
             artyom.say("In Werk 1 sind heute 3 Mitarbeiter und Mitarbeiterinnen krank");
            
@@ -145,7 +145,7 @@ window.addEventListener("load", function () {
 
     artyom.addCommands(krank1)
     var krank2 = {
-        indexes:["Wie viele Mitarbeiter sind in Werk 2 krank","Wie viele Krankmeldungen gibt es in Werk 2"], 
+        indexes:["wie viele Mitarbeiter sind im Werk 2 krank","Wie viele Krankmeldungen gibt es in Werk 2","wie viele Mitarbeiter sind in Werk 2 krank"], 
         action:function(){ 
             artyom.say("In Werk 2 sind heute 2  Mitarbeiter und Mitarbeiterinnen  krank");
            
@@ -157,7 +157,7 @@ window.addEventListener("load", function () {
 
     artyom.addCommands(krank2)
     var krank3 = {
-        indexes:["Wie viele Mitarbeiter sind in Werk 3 krank","Wie viele Krankmeldungen gibt es in Werk 3", "wie viele Krankmeldungen gibt es in werk3"], 
+        indexes:["Wie viele Mitarbeiter sind in Werk 3 krank","Wie viele Krankmeldungen gibt es in Werk 3", "wie viele Krankmeldungen gibt es in werk3","wie viele Mitarbeiter sind in werk3 krank","wie viele Mitarbeiter sind im Werk drei krank"], 
         action:function(){ 
             artyom.say("In Werk 3 sind heute 0  Mitarbeiter und Mitarbeiterinnen  krank");
            
@@ -169,7 +169,7 @@ window.addEventListener("load", function () {
 
     artyom.addCommands(krank3)
     var krank4 = {
-        indexes:["Wie viele Mitarbeiter sind in Werk 4 krank","wie viele Krankmeldungen gibt es im Werk 4"], 
+        indexes:["Wie viele Mitarbeiter sind in Werk 4 krank","wie viele Krankmeldungen gibt es im Werk 4","wie viele Mitarbeiter sind im Werk 4 krank"], 
         action:function(){ 
             artyom.say("In Werk 4 sind heute 70  Mitarbeiter und Mitarbeiterinnen krank. Möchten Sie mehr Infos zu den Krankmeldungen?");
            
@@ -223,7 +223,7 @@ window.addEventListener("load", function () {
 
     artyom.addCommands(ausschuss2)
     var ausschuss3 = {
-        indexes:["Wie hoch liegt der Ausschuss in Werk 3","wie hoch liegt der Ausschuss in werk3"], 
+        indexes:["Wie hoch liegt der Ausschuss in Werk 3","wie hoch liegt der Ausschuss in werk3","wie hoch liegt der Ausschuss im Werk 3"], 
         action:function(){ 
             artyom.say("Der Ausschuss in Werk 3 liegt bei 34 stück");
            
@@ -265,7 +265,7 @@ window.addEventListener("load", function () {
 
 
     var Verschleiß1 = {
-        indexes:["Wie hoch sind die Kosten für den Verschleiß in Werk 1", "Verschleiß Werk 1" ], 
+        indexes:["Wie hoch sind die Kosten für den Verschleiß in Werk 1", "Verschleiß Werk 1","Wie hoch sind die Kosten für den Verschleiß im Werk 1" ], 
         action:function(){ 
             artyom.say("Die Kosten für den Verschleiß in Werk 1 liegen bei 1700€. Wollen Sie mehr Infos dazu?");
            
@@ -278,7 +278,7 @@ window.addEventListener("load", function () {
     artyom.addCommands(Verschleiß1)
 
     var Verschleiß11 = {
-        indexes:["Bitte mehr Infos zum Verschleiß in Werk eins" ], 
+        indexes:["Bitte mehr Infos zum Verschleiß in Werk eins", "bitte mehr Infos zum Verschleiß im Werk 1"], 
         action:function(){ 
             artyom.say("Maschine 4 an Band 12 ist seit gestern defekt. Es wird sich bereits darum gekümmert. Die Produktion wurde eingestellt");
            
@@ -292,7 +292,7 @@ window.addEventListener("load", function () {
 
 
     var Verschleiß2 = {
-        indexes:["Wie hoch sind die Kosten für den Verschleiß in Werk 2", "Verschleiß Werk 2"], 
+        indexes:["Wie hoch sind die Kosten für den Verschleiß in Werk 2", "Verschleiß Werk 2","Wie hoch sind die Kosten für den Verschleiß im Werk 2"], 
         action:function(){ 
             artyom.say("Die Kosten für den Verschleiß in Werk 2 liegen bei 500€");
            
@@ -304,7 +304,7 @@ window.addEventListener("load", function () {
 
     artyom.addCommands(Verschleiß2)
     var Verschleiß3 = {
-        indexes:["Wie hoch sind die Kosten für den Verschleiß in Werk 3", "Verschleiß Werk 3"], 
+        indexes:["Wie hoch sind die Kosten für den Verschleiß in Werk 3", "Verschleiß Werk 3","Wie hoch sind die Kosten für den Verschleiß im Werk 3"], 
         action:function(){ 
             artyom.say("Die Kosten für den Verschleiß in Werk 3 liegen bei 500€");
            
@@ -316,7 +316,7 @@ window.addEventListener("load", function () {
 
     artyom.addCommands(Verschleiß3)
     var Verschleiß4 = {
-        indexes:["Wie hoch sind die Kosten für den Verschleiß in Werk 4", "Verschleiß Werk 4"], 
+        indexes:["Wie hoch sind die Kosten für den Verschleiß in Werk 4", "Verschleiß Werk 4","Wie hoch sind die Kosten für den Verschleiß im Werk 4"], 
         action:function(){ 
             artyom.say("Die Kosten für den Verschleiß in Werk 4 liegen bei 500€");
            
