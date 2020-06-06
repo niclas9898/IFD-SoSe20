@@ -9,16 +9,31 @@ window.addEventListener("load", function () {
     });
 
 
-    var commandHello = {
-        indexes:["Guten Morgen", "hallo"], // These spoken words will trigger the execution of the command
-        action:function(){ // Action to be executed when a index match with spoken word
-            artyom.say("Willkommen. Ihr Kaffee steht bereit. Reden wir über die gestrigen Zahlen?");
-           
+
+    artyom.addCommands({
+        indexes: ["Guten Morgen", "hallo"],
+        smart: false,
+        action: function () {
+            artyom.say("Willkommen. Ich hoffe, Sie hatten eine angenehme Fahrt zu ihrem Arbeitsplatz. Wollen wir über das Wetter oder über die neuen Zahlen reden?");
         }
+    });
 
-    };
+    artyom.addCommands({
+        indexes: ["bitte über die neuen Zahlen","neue Zahlen", "neue Zahl"],
+        smart: false,
+        action: function () {
+            artyom.say("Schade, ich hätte gerne über das Wetter geredet.");
+        }
+    });
 
-    artyom.addCommands(commandHello)
+    artyom.addCommands({
+        indexes: ["Wie wird das Wetter heute"],
+        smart: false,
+        action: function () {
+            artyom.say("Konzentriere dich bitte auf das wesentliche");
+        }
+    });
+  
 
     var Verschleiß = {
         indexes:["wie hoch sind die Kosten für den Verschleiß"], 
@@ -345,19 +360,14 @@ window.addEventListener("load", function () {
     };
 
     artyom.addCommands(meldung1)
-
-    var meldung2 = {
-        indexes:[" weiter"], 
-        action:function(){ 
+    artyom.addCommands({
+        indexes: ["weiter"],
+        smart: false,
+        action: function () {
             artyom.say("Der plötzliche Anstieg an Krankmeldungen in Werk 4 ist sehr verdächtig. Bitte verordnen Sie dringend alle Mitarbeiter an COVID-19 Tests durchzuführen. Das waren die wichtigsten Meldungen des Tages");
-           
         }
+    });
 
-    
-
-    };
-
-    artyom.addCommands(meldung2)
 
 
 
