@@ -35,14 +35,14 @@ margin-right: 20%;
 
 
 .button {
-    background-color: #D99441;
-    color: #590C04;
+    background-color: #b2d6d6;
+    
     cursor: pointer;
   border:none;
 }
 
 .button:hover {
-background-color:#400404 ; 
-  color: #D99441; 
+background-color:#55d6d6 ; 
+ 
 }
 
